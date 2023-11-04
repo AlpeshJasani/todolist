@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 // mongodb://0.0.0.0:27017/todolistDB  // mongodb server link .. 
-mongoose.connect("process.env.todolistDB", { useNewUrlParser: true, useUnifiedTopology: true,useFindAndModify: false } );
+mongoose.connect(process.env.todolistDB, { useNewUrlParser: true, useUnifiedTopology: true,useFindAndModify: false } );
 
 const conSuccess = mongoose.connection
 conSuccess.once('open', _ => {
