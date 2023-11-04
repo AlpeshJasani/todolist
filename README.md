@@ -5,6 +5,8 @@ Live Website Link: https://todolist-k499.onrender.com/
 How to deploy on Render:
 - [How to Deploy a Node.js App to Render.com](https://www.youtube.com/watch?v=bnCOyGaSe84)
 
+Currently i am working on user login, google OAuth etc. fratures..
+
 ## Steps:
 - clone the Repo.
 - `npm i`
